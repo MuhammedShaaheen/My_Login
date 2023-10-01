@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Orix Bakers',
+            Text('Orix',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 30,
