@@ -3,7 +3,7 @@ import 'package:test_1/login_page.dart';
 import 'package:test_1/splash_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Login Page',
       theme:
           ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown)),
-      home: SplashScreen(),
+      home: const SplashScreen(),
     );
   }
 }

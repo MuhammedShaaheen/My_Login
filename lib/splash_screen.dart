@@ -6,11 +6,11 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Future.delayed(Duration(seconds: 2), () {
+    Future.delayed(const Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (context) => LoginPage()));
     });
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: Colors.yellow,
       body: Center(
         child: Column(

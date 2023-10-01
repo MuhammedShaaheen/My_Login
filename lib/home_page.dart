@@ -10,12 +10,12 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Prdoucts'),
           leading: IconButton(
-            icon: Icon(
+            icon: const Icon(
                 Icons.arrow_back), // You can use a different icon if needed
             onPressed: () {
               // Define the behavior when the back button is pressed
               // For example, you can navigate back to the previous screen using Navigator
-              Navigator.of(context).popUntil((route) => route.isFirst);
+              Navigator.of(context).pop();
             },
           ),
           actions: [

@@ -18,7 +18,7 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 'Orix Bakers',
                 style: TextStyle(
                   color: Colors.brown,
@@ -26,10 +26,10 @@ class LoginPage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              Text(
+              const Text(
                 'Login to your account',
                 style: TextStyle(
                   color: Colors.brown,
@@ -37,27 +37,27 @@ class LoginPage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               TextField(
                 controller: _textEditingController_1,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   border: OutlineInputBorder(),
                   labelText: 'Email',
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               TextField(
                 controller: _textEditingController_2,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   border: OutlineInputBorder(),
                   labelText: 'Password',
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               ElevatedButton(
@@ -67,14 +67,14 @@ class LoginPage extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(),
+                        builder: (context) => const HomePage(),
                       ),
                     );
                   }
                 },
-                child: Text('Login'),
+                child: const Text('Login'),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
             ],
